@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+  :root{
+    --red:#D01C28;
+    --gray: #5A5959;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+ 
+  }
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* margin: 0 auto is a CSS property that sets the top and bottom margins of an element to 0 and centers it horizontally within its parent element. This technique is often used to center a block-level element such as a div or a image. */
+  max-width: 1280px;
+  height: 72px;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+button{
+  all: unset;
+  /* unset means all the inherited styles will be removed*/
+  padding: 6px 16px;
+  height: 31px;
+  color: white;
+  background: var(--red);
+}
+
+.Hero{
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.heroContent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.Hero h1{
+  font-size: 108px;
+  line-height: 102px;
+  font-weight: 800;
+  width: 595px;
+}
+
+.Hero h2{
+color: var(--gray);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 404px;
+height: 91px;
+}
+
+
+.heroButtons{
+  display: flex;
+  gap: 40px;
+  font-size: larger;
+}
+.btn{
+  background: transparent;
+  color: var(--gray);
+  border:solid 1px gray;
+}
+.brandLogo{
+  display: flex;
+  gap: 40px;
+}
+
+.heroLogo{
+  margin-top: 72px;
+  margin-left: 80px;
+}
